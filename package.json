@@ -1,0 +1,47 @@
+{
+  "name": "hubot-aws-device-farm",
+  "description": "Interact with AWS Device Farm",
+  "version": "0.0.1",
+  "author": "Andrew Hawker <andrew.r.hawker@gmail.com>",
+  "license": "Apache 2.0",
+
+  "keywords": "hubot, hubot-scripts, aws, aws-device-farm, android, ios, test",
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ahawker/hubot-aws-device-farm.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/ahawker/hubot-aws-device-farm/issues"
+  },
+
+  "dependencies": {
+    "aws-sdk": "^2.2.44"
+  },
+i
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "coffee-script": "1.6.3",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-mocha-test": "~0.12.7",
+    "grunt-release": "~0.11.0",
+    "hubot": "2.x",
+    "matchdep": "~0.3.0",
+    "mocha": "^2.1.0",
+    "sinon": "^1.13.0",
+    "sinon-chai": "^2.7.0"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "grunt test"
+  }
+}
